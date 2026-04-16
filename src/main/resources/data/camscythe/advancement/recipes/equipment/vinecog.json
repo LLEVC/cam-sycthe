@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:netherite_axe" }
+        ]
+      }
+    },
+    "has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:diamond" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_netherite_axe", "has_diamond"]
+  ],
+  "rewards": {
+    "recipes": ["camscythe:vinecog"]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "camscythe",
+  "version": "${version}",
+  "name": "Cam's Scythes",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/camscythe/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "camscythe.client.CamscytheDataGenerator"
+    ],
+    "client": [
+      "camscythe.client.CamscytheClient"
+    ],
+    "main": [
+      "camscythe.Camscythe"
+    ]
+  },
+  "mixins": [
+    "camscythe.mixins.json",
+    {
+      "config": "camscythe.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "accessWidener": "camscythe.accesswidener",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

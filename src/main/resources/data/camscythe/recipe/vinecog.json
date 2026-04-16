@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ffb",
+    "cae",
+    "dc "
+  ],
+  "key": {
+    "a": "minecraft:netherite_axe",
+    "b": "minecraft:diamond",
+    "c": "minecraft:vine",
+    "d": "minecraft:gold_ingot",
+    "e": "minecraft:potion",
+    "f": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "camscythe:vinecog",
+    "count": 1
+  }
+}

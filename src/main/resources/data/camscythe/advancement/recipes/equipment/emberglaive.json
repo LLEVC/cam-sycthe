@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:stone_axe" }
+        ]
+      }
+    },
+    "has_fire_charge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:fire_charge" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_stone_axe", "has_fire_charge"]
+  ],
+  "rewards": {
+    "recipes": ["camscythe:emberglaive"]
+  }
+}
