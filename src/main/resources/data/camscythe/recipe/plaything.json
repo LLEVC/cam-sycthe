@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "dde",
+    " ac",
+    "ebd"
+  ],
+  "key": {
+    "a": "minecraft:iron_axe",
+    "b": "minecraft:gold_ingot",
+    "c": "minecraft:diamond",
+    "d": "minecraft:iron_ingot",
+    "e": "minecraft:redstone"
+  },
+  "result": {
+    "id": "camscythe:plaything",
+    "count": 1
+  }
+}
