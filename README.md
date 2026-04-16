@@ -1,0 +1,2 @@
+# cam-sycthe
+mc datapack
