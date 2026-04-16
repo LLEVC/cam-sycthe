@@ -3,10 +3,10 @@
   "id": "camscythe",
   "version": "${version}",
   "name": "Cam's Scythes",
-  "description": "",
-  "authors": [],
+  "description": "i made scythes - Cametized 2025",
+  "authors": ["Cametized, LLEVC"],
   "contact": {},
-  "license": "All-Rights-Reserved",
+  "license": "CERTIFIED FREB LICENSE:tm:",
   "icon": "assets/camscythe/icon.png",
   "environment": "*",
   "entrypoints": {
